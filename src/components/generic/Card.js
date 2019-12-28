@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 const Card = styled.div`
-  border: solid 2px #ddd;
+  padding: 20px;
+  margin: 10px;
+  background-color: #ddd;
   width: 100%;
   min-width: 256px;
   max-width: 512px;
   box-sizing: border-box;
-  float: left;
 `;
 
 const Title = styled.p`

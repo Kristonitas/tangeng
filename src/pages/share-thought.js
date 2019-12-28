@@ -2,6 +2,7 @@
 
 import Router from "next/router";
 import Container from "../components/generic/Container";
+import Form from "../components/generic/Form";
 const { useState } = require("react");
 
 export default function ShareThought() {
@@ -23,7 +24,7 @@ export default function ShareThought() {
 
   return (
     <Container>
-      <form onSubmit={submit}>
+      <Form onSubmit={submit}>
         <p>What is in your mind?</p>
         <input
           type="text"
@@ -35,7 +36,7 @@ export default function ShareThought() {
         <button variant="primary" type="submit">
           Share
         </button>
-      </form>
+      </Form>
     </Container>
   );
 }

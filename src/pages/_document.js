@@ -15,7 +15,11 @@ export default class MyDocument extends Document {
   }
 }
 
-const bodyStyle = { margin: 0, fontFamily: "Sans-Serif" };
+const bodyStyle = {
+  margin: 0,
+  fontFamily: "Sans-Serif",
+  backgroundColor: "#888"
+};
 
 MyDocument.getInitialProps = async ctx => {
   const sheet = new ServerStyleSheet();
